@@ -6,5 +6,6 @@ public class Main {
         JFrame frame = new JFrame();
 
         frame.setTitle("First Application");
+        frame.setVisible(true);
     }
 }
