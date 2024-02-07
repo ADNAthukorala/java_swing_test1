@@ -2,8 +2,9 @@ import javax.swing.*;
 import java.awt.*;
 
 class MyFrame extends JFrame {
+    JLabel label;
     MyFrame() {
-        JLabel label = new JLabel();
+        label = new JLabel();
         label.setText("Hello World");
         label.setHorizontalAlignment(JLabel.CENTER);
         label.setVerticalAlignment(JLabel.TOP);
