@@ -1,18 +1,26 @@
 import javax.swing.*;
 import java.awt.*;
 
+class MyFrame extends JFrame {
+    MyFrame() {
+        JLabel label = new JLabel();
+        label.setText("Hello World");
+        label.setHorizontalAlignment(JLabel.CENTER);
+        label.setVerticalAlignment(JLabel.TOP);
+        label.setForeground(Color.blue);
+
+        this.add(label);
+    }
+}
+
 public class Main {
     public static void main(String[] args) {
-        JFrame frame = new JFrame();
 
-        frame.setTitle("First Application");
-
+        MyFrame frame = new MyFrame();
+        frame.setTitle("Application");
         frame.setSize(420, 420);
-
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
         frame.setVisible(true);
 
-        frame.getContentPane().setBackground(new Color(255, 54, 123));
     }
 }
