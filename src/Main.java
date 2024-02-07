@@ -5,6 +5,10 @@ public class Main {
         JFrame frame = new JFrame();
 
         frame.setTitle("First Application");
+
+        frame.setSize(420, 420);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
         frame.setVisible(true);
     }
 }
