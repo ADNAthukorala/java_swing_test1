@@ -6,13 +6,14 @@ public class MyFrame2 extends JFrame {
         JLabel label;
         JButton button;
         JTextField textField;
-        String message = "Welcome";
+        String message = "Empty Field";
 
         label = new JLabel(message);
         button = new JButton("Click");
-        textField = new JTextField();
+        textField = new JTextField(15);
 
         this.setLayout(new FlowLayout());
+        this.add(textField);
         this.add(label);
         this.add(button);
     }
