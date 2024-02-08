@@ -65,7 +65,7 @@ class MyFrameJButton extends JFrame implements ActionListener {
 public class Main {
     public static void main(String[] args) {
 
-        MyFrameJListComboBox frame = new MyFrameJListComboBox();
+        MyFrameLayouts frame = new MyFrameLayouts();
         frame.setTitle("Application");
         frame.setSize(420, 420);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
