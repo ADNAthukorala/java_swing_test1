@@ -60,10 +60,12 @@ class MyFrame1 extends JFrame implements ActionListener {
     }
 }
 
+
+
 public class Main {
     public static void main(String[] args) {
 
-        MyFrame1 frame = new MyFrame1();
+        MyFrame2 frame = new MyFrame2();
         frame.setTitle("Application");
         frame.setSize(420, 420);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
