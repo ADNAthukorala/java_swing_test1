@@ -64,12 +64,11 @@ class MyFrameJButton extends JFrame implements ActionListener {
 
 public class Main {
     public static void main(String[] args) {
-
-        MyFrameJPanel frame = new MyFrameJPanel();
+        MyFrameJMenuBar frame = new MyFrameJMenuBar();
         frame.setTitle("Application");
         frame.setSize(420, 420);
+        frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
-
     }
 }
