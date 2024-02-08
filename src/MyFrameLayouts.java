@@ -19,7 +19,9 @@ public class MyFrameLayouts extends JFrame {
 //        this.add(button5, BorderLayout.CENTER);
 
         FlowLayout f = new FlowLayout();
-        f.setAlignment(FlowLayout.LEFT);
+        f.setAlignment(FlowLayout.CENTER);
+        f.setHgap(30);
+        f.setVgap(50);
         this.setLayout(f);
         this.add(button1, BorderLayout.NORTH);
         this.add(button2, BorderLayout.EAST);
