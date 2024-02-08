@@ -29,12 +29,12 @@ class MyFrame extends JFrame {
     }
 }
 
-class MyFrame1 extends JFrame implements ActionListener {
+class MyFrameJButton extends JFrame implements ActionListener {
     JLabel label;
     JButton incrementButton, decrementButton;
     int count = 0;
 
-    MyFrame1() {
+    MyFrameJButton() {
         label = new JLabel("Count " + count);
         incrementButton = new JButton("Increment");
         decrementButton = new JButton("Decrement");
@@ -65,7 +65,7 @@ class MyFrame1 extends JFrame implements ActionListener {
 public class Main {
     public static void main(String[] args) {
 
-        MyFrame2 frame = new MyFrame2();
+        MyFrameJTextField frame = new MyFrameJTextField();
         frame.setTitle("Application");
         frame.setSize(420, 420);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
