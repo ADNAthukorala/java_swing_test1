@@ -65,7 +65,7 @@ class MyFrameJButton extends JFrame implements ActionListener {
 public class Main {
     public static void main(String[] args) {
 
-        MyFrameJTextArea frame = new MyFrameJTextArea();
+        MyFrameJCheckBox frame = new MyFrameJCheckBox();
         frame.setTitle("Application");
         frame.setSize(420, 420);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
