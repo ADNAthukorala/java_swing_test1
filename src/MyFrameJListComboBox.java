@@ -10,7 +10,7 @@ public class MyFrameJListComboBox extends JFrame implements ListSelectionListene
     JComboBox<String> comboBox;
 
     MyFrameJListComboBox() {
-        String[] carBrands = {"Nissan-GTR", "Lamborghini", "BMW", "Ferrari", "Suzuki", "Mitsubishi"};
+        String[] carBrands = {"Nissan-GTR", "Lamborghini", "BMW", "Ferrari", "Suzuki", "Mitsubishi", "Mazda"};
 
         // Created a list box
         listBox = new JList<>(carBrands);

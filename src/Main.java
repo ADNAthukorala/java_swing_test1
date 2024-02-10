@@ -60,15 +60,18 @@ class MyFrameJButton extends JFrame implements ActionListener {
     }
 }
 
-
+//        MyFrameJMenuBar frame = new MyFrameJMenuBar();
+//        frame.setTitle("Application");
+//        frame.setSize(420, 420);
+//        frame.setLocationRelativeTo(null);
+//        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        frame.setVisible(true);
 
 public class Main {
     public static void main(String[] args) {
-        MyFrameJMenuBar frame = new MyFrameJMenuBar();
-        frame.setTitle("Application");
-        frame.setSize(420, 420);
-        frame.setLocationRelativeTo(null);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
+//        String userName = JOptionPane.showInputDialog("Enter your name");
+//        if (userName != null) {
+//            JOptionPane.showMessageDialog(null,"Your name is " + userName);
+//        }
     }
 }
