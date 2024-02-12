@@ -69,9 +69,9 @@ class MyFrameJButton extends JFrame implements ActionListener {
 
 public class Main {
     public static void main(String[] args) {
-//        String userName = JOptionPane.showInputDialog("Enter your name");
-//        if (userName != null) {
-//            JOptionPane.showMessageDialog(null,"Your name is " + userName);
-//        }
+        String userName = JOptionPane.showInputDialog("Enter your name");
+        if (userName != null) {
+            JOptionPane.showMessageDialog(null,"Your name is " + userName);
+        }
     }
 }
